@@ -1,0 +1,122 @@
+[
+    {
+        "skillid": "skillid1",
+        "rating": "rating1",
+        "type": "type1",
+        "skillname": "skillname1"
+    },
+    {
+        "skillid": "skillid2",
+        "rating": "rating2",
+        "type": "type2",
+        "skillname": "skillname2"
+    },
+    {
+        "skillid": "skillid3",
+        "rating": "rating3",
+        "type": "type3",
+        "skillname": "skillname3"
+    },
+    {
+        "skillid": "skillid4",
+        "rating": "rating4",
+        "type": "type4",
+        "skillname": "skillname4"
+    },
+    {
+        "skillid": "skillid5",
+        "rating": "rating5",
+        "type": "type5",
+        "skillname": "skillname5"
+    },
+    {
+        "skillid": "skillid6",
+        "rating": "rating6",
+        "type": "type6",
+        "skillname": "skillname6"
+    },
+    {
+        "skillid": "skillid7",
+        "rating": "rating7",
+        "type": "type7",
+        "skillname": "skillname7"
+    },
+    {
+        "skillid": "skillid8",
+        "rating": "rating8",
+        "type": "type8",
+        "skillname": "skillname8"
+    },
+    {
+        "skillid": "skillid9",
+        "rating": "rating9",
+        "type": "type9",
+        "skillname": "skillname9"
+    },
+    {
+        "skillid": "skillid10",
+        "rating": "rating10",
+        "type": "type10",
+        "skillname": "skillname10"
+    },
+    {
+        "skillid": "skillid11",
+        "rating": "rating11",
+        "type": "type11",
+        "skillname": "skillname11"
+    },
+    {
+        "skillid": "skillid12",
+        "rating": "rating12",
+        "type": "type12",
+        "skillname": "skillname12"
+    },
+    {
+        "skillid": "skillid13",
+        "rating": "rating13",
+        "type": "type13",
+        "skillname": "skillname13"
+    },
+    {
+        "skillid": "skillid14",
+        "rating": "rating14",
+        "type": "type14",
+        "skillname": "skillname14"
+    },
+    {
+        "skillid": "skillid15",
+        "rating": "rating15",
+        "type": "type15",
+        "skillname": "skillname15"
+    },
+    {
+        "skillid": "skillid16",
+        "rating": "rating16",
+        "type": "type16",
+        "skillname": "skillname16"
+    },
+    {
+        "skillid": "skillid17",
+        "rating": "rating17",
+        "type": "type17",
+        "skillname": "skillname17"
+    },
+    {
+        "skillid": "skillid18",
+        "rating": "rating18",
+        "type": "type18",
+        "skillname": "skillname18"
+    },
+    {
+        "skillid": "skillid19",
+        "rating": "rating19",
+        "type": "type19",
+        "skillname": "skillname19"
+    },
+    {
+        "skillid": "skillid20",
+        "rating": "rating20",
+        "type": "type20",
+        "skillname": "skillname20"
+    }
+]
