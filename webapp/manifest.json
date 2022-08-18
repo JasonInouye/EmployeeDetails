@@ -1,5 +1,5 @@
 {
-  "_version": "1.40.0",
+  "_version": "1.20.0",
   "sap.app": {
     "id": "employeedetail",
     "type": "application",
