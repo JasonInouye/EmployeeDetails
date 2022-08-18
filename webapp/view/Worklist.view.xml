@@ -53,11 +53,14 @@
                 </headerToolbar>
 
                 <columns>
-                    <Column id="nameColumn">
-                        <Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
+                    <Column id="fnameColumn">
+                        <Text text="{i18n>tableNameColumnFirstname}" id="firstnameColumnTitle"/>
                     </Column>
-                    <Column id="unitNumberColumn" hAlign="End">
-                        <Text text="{i18n>tableUnitNumberColumnTitle}" id="unitNumberColumnTitle"/>
+                    <Column id="lnameColumn">
+                        <Text text="{i18n>tableNameColumnLastname}" id="lastnameColumnTitle"/>
+                    </Column>
+                    <Column id="emailColumn">
+                        <Text text="{i18n>tableNameColumnEmail}" id="emailColumnTitle"/>
                     </Column>
                 </columns>
 
@@ -68,6 +71,10 @@
                         <cells>
                             <ObjectIdentifier
                                 title="{firstname}"/>
+                            <ObjectIdentifier
+                                title="{lastname}"/>
+                            <ObjectIdentifier
+                                title="{email}"/>
                             <ObjectNumber />
                         </cells>
                     </ColumnListItem>

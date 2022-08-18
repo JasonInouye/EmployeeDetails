@@ -9,21 +9,24 @@
         headerPinnable="false"
         toggleHeaderOnTitleClick="false"
         busy="{objectView>/busy}"
-        busyIndicatorDelay="{objectView>/delay}">
+        busyIndicatorDelay="{objectView>/delay}"
+        showNavButton="true">
 
         <semantic:titleHeading>
             <Title
-                text="{firstname}"
+                text="Employee Details of {firstname} {lastname}"
                 level="H2"/>
+
+            <Toolbar>
+				<Button type="Back" press="onNavBack" />
+				<ToolbarSpacer/>
+				<Title text="Employee Details of {firstname} {lastname}" level="H2"/>
+			</Toolbar>
         </semantic:titleHeading>
 
         <semantic:headerContent>
             <ObjectNumber />
         </semantic:headerContent>
-
-        <semantic:sendEmailAction>
-            <semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
-        </semantic:sendEmailAction>
 
     </semantic:SemanticPage>
 
