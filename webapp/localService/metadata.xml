@@ -13,6 +13,7 @@ xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
         <Property Name="role" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Job Role" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
         <Property Name="firstname" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="First Name" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
         <Property Name="lastname" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Last Name" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
+        <Property Name="title" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Title" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
         <Property Name="email" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Email" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
         <Property Name="phone" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Phone" sap:creatable="false" sap:updatable="false" sap:sortable="true" sap:filterable="true"/>
     </EntityType>

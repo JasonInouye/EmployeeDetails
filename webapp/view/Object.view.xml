@@ -1,8 +1,10 @@
 <mvc:View
     controllerName="employeedetail.controller.Object"
     xmlns="sap.m"
+    xmlns:uxap="sap.uxap"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns:semantic="sap.f.semantic">
+    xmlns:semantic="sap.f.semantic"
+    >
 
     <semantic:SemanticPage
         id="page"
@@ -13,20 +15,23 @@
         showNavButton="true">
 
         <semantic:titleHeading>
-            <Title
+            <!-- <Title
                 text="Employee Details of {firstname} {lastname}"
-                level="H2"/>
+                level="H2"/> -->
 
             <Toolbar>
 				<Button type="Back" press="onNavBack" />
 				<ToolbarSpacer/>
-				<Title text="Employee Details of {firstname} {lastname}" level="H2"/>
+				<Title text="Employee Details" level="H2"/>
 			</Toolbar>
+
         </semantic:titleHeading>
 
         <semantic:headerContent>
-            <ObjectNumber />
+            <Text text="{firstname} {lastname} {title}"/>
+            <Text text="{title}"/>
         </semantic:headerContent>
+
 
     </semantic:SemanticPage>
 

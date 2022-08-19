@@ -74,7 +74,7 @@
                             <ObjectIdentifier
                                 title="{lastname}"/>
                             <ObjectIdentifier
-                                title="{email}"/>
+                                title="{title}"/>
                             <ObjectNumber />
                         </cells>
                     </ColumnListItem>
