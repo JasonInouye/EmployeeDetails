@@ -51,6 +51,10 @@ sap.ui.define(
           this.getRouter().navTo("worklist", {}, true);
         }
       },
+      onShowDetails : function (oEvent) {
+        // The source is the list item that got pressed
+        this._onDetailMatched(oEvent.getSource());
+      },
 
       /* =========================================================== */
       /* internal methods                                            */
@@ -63,6 +67,11 @@ sap.ui.define(
        * @private
        */
       _onObjectMatched: function (oEvent) {
+        var sObjectId = oEvent.getParameter("arguments").objectId;
+        this._bindView("/EmployeeSet" + sObjectId);
+      },
+
+      _onDetailMatched: function (oEvent) {
         var sObjectId = oEvent.getParameter("arguments").objectId;
         this._bindView("/EmployeeSet" + sObjectId);
       },

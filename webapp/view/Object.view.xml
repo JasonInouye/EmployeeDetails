@@ -3,7 +3,9 @@
     xmlns="sap.m"
     xmlns:uxap="sap.uxap"
     xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
     xmlns:semantic="sap.f.semantic"
+    busyIndicatorDelay="0"
     >
 
     <semantic:SemanticPage
@@ -22,16 +24,42 @@
             <Toolbar>
 				<Button type="Back" press="onNavBack" />
 				<ToolbarSpacer/>
-				<Title text="Employee Details" level="H2"/>
+				<Title text="{i18n>worklistTitle}" level="H2"/>
 			</Toolbar>
 
         </semantic:titleHeading>
 
-        <semantic:headerContent>
-            <Text text="{firstname} {lastname} {title}"/>
-            <Text text="{title}"/>
-        </semantic:headerContent>
-
+            <semantic:headerContent>
+                <Panel
+                    id="employeePanel"
+                    width="auto"
+                    class="sapUiResponsiveMargin sapUiNoContentPadding">
+                    <headerToolbar>
+                        <Toolbar>
+                            <Title text="Employee ID: {id}" level="H2"/>
+                            <ToolbarSpacer />
+                            <Link text="Flip For Details" tooltip="" press=".onShowDetails"/>
+                        </Toolbar>
+                    </headerToolbar>
+                    <content>
+                        <f:SimpleForm
+                            minWidth="1024"
+                            editable="false"
+                            layout="ResponsiveGridLayout"
+                            labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+                            columnsL="1" columnsM="1">
+                            <f:content>
+                                <Label text="First Name"/>
+                                <Text text="{firstname}"/>
+                                <Label text="Last Name"/>
+                                <Text text="{lastname}"/>
+                                <Label text="Title"/>
+                                <Text text="{title}"/>
+                            </f:content>
+                        </f:SimpleForm>
+                    </content>
+                </Panel>
+            </semantic:headerContent>
 
     </semantic:SemanticPage>
 

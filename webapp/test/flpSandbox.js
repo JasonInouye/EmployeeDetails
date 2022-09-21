@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "Employee Detail",
-									"targetURL": "#employeedetail-display"
+									"targetURL": "#lay"
 								}
 							}]
 						}]
